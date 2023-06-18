@@ -36,11 +36,19 @@ In the `Pose Modules/topdown` directory, you will find the Alphapose code for to
 
 In the `Pose Modules/bottomup` directory, you will find the following pose estimation models:
 
-- **Openpose**: An open-source pose estimation library that provides accurate keypoints detection.
+- **Openpose**: An open-source pose estimation library that provides accurate keypoints detection. 
+    1. First, install tf_pose_estimation from this github repository: https://github.com/gsethi2409/tf-pose-estimation.git
+    2. Inside 'Pose Modules/bottomup/openpose' folder contains openpose.py which contains function to return pose features. https://openpifpaf.github.io/intro.html
 
 - **Openpifpaf**: Another pose estimation library that supports multi-person and crowd pose estimation.
+    1. First install openpifpaf using *pip install openpifpaf* or you can visit this github for further information:  https://openpifpaf.github.io/intro.html
+    2.  Inside 'Pose Modules/bottomup/openpifaf' contains openpifaf.py which contains function to extract keypoints features from an Image.
 
 - **Movenet**: A lightweight and efficient pose estimation model suitable for real-time applications.
+
+    1. In order to use Movenet first download the saved_model(movenet_singlepose_thunder_4) from: https://tfhub.dev/google/movenet/singlepose/lightning/4. 
+    2. Then you can use movenet.py( inside 'Pose Modules/bottomup/Movenet' ) to extract keypoints features from an image.
+    3. In this turtorial, another famous similar bottomup approach named "PoseNet" is not used because MoveNet shows better performance. 
 
 Please refer to the individual directories for each pose estimation model to access the code examples, usage instructions, and any additional documentation specific to that model.
 
