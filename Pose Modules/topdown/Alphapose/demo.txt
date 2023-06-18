@@ -1,0 +1,5 @@
+python scripts/demo.py --cfg configs/coco/resnet/256x192_res152_lr1e-3_1x-duc.yaml --checkpoint pretrained_models/fast_421_res152_256x192.pth --video_dire dataset/Drink.Fromcan/ --outdir video_result/Drink.Fromcan/ --save_video --detector yolox-x --vis_fast 
+
+
+python scripts/demo.py --cfg configs/coco/resnet/256x192_res152_lr1e-3_1x-duc.yaml --checkpoint pretrained_models/fast_421_res152_256x192.pth --video_dire etri3d/Drink.Fromcup/ --outdir video_result_etri/Drink.Fromcup/ --save_video --detector yolox-x --vis_fast 
+
