@@ -56,6 +56,8 @@ Feel free to explore, modify, and integrate the provided codes into your own pro
 
 ## Qualitative Analysis
 
+The below figure shows the qualitative comparison of different pose estimators. This qualitative analysis was conducted in a research paper in which I co-authored (equal contribution with the first author). You can access the full paper through this link: [(Exploring Human Pose Estimation and the Usage of Synthetic Data for Elderly Fall Detection in Real-World Surveillance)](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9870817). If you find the paper useful, please consider citing it.
+
 ![Pose estimation modules comparision.](images/Qualitative%20Analysis.jpg)
 
 
