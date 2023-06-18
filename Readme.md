@@ -54,6 +54,11 @@ Please refer to the individual directories for each pose estimation model to acc
 
 Feel free to explore, modify, and integrate the provided codes into your own projects!
 
+## Qualitative Analysis
+
+![Pose estimation modules comparision.](images/Qualitative%20Analysis.jpg)
+
+
 ## Contributing
 
 ## Contributing
